@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    width: 80%;
+    background-color: red;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+#title_image {
+    padding:10px;
+}
+
+#image {
+    background-image: url("img/forest.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#title {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#main-menu {
+    background-color: grey;
+}
+
+#main-menu ul {
+    height: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    list-style-type: none;
+}
+
+#main-menu ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#main-menu ul li {
+    display: inline-block;
+    float:left;
+    padding: 2%;
+    height: 100%;
+    border-right: 1px inset darkgrey;
+}
+
+#main-menu ul li:last-child {
+    border: none;
+}
+
+#main-menu ul li:nth-child(3) {
+    background-color: brown;
+}
+
+#main-menu ul li:hover {
+    background-color: brown;
+
+}
+
+main {
+    background-color: lightgreen;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+footer {
+    background-color: yellow;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+}
