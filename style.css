@@ -5,15 +5,17 @@
 }
 
 body {
-    background-color: lightblue;
+    background-image: url("img/wood.jpg");
+    background-size: cover;
 }
 
 header {
     width: 80%;
-    background-color: red;
+    background-color: #e3e6e4;
     margin: auto;
     margin-top: 20px;
     position: relative;
+    font-family: 'Cousine', monospace;
 }
 
 #title_image {
@@ -35,15 +37,20 @@ header {
     padding-bottom: 5%;
 }
 
+title h1 {
+border: 4px solid white;
+}
+
 #main-menu {
-    background-color: grey;
+    background-color: #504741;
+    text-align: center;
 }
 
 #main-menu ul {
     height: 100%;
-    margin-left: 50%;
-    transform: translateX(-50%);
     list-style-type: none;
+    color: #e3e6e4;
+    font-size: 15px;
 }
 
 #main-menu ul::after {
@@ -54,7 +61,6 @@ header {
 
 #main-menu ul li {
     display: inline-block;
-    float:left;
     padding: 2%;
     height: 100%;
     border-right: 1px inset darkgrey;
@@ -65,20 +71,20 @@ header {
 }
 
 #main-menu ul li:nth-child(3) {
-    background-color: brown;
+    background-color: #3d3632;
 }
 
 #main-menu ul li:hover {
-    background-color: brown;
+    background-color: #3d3632;
 
 }
 
 main {
-    background-color: lightgreen;
     width: 80%;
     margin: auto;
     padding-top: 1%;
     padding-bottom: 1%;
+    font-family: 'Inconsolata', monospace;
 }
 
 main::after {
@@ -90,11 +96,10 @@ main::after {
 #sidebar_left {
     float: left;
     width: 25%;
-    background-color: purple;
 }
 
 #rss_feed {
-    background-color: lightgrey;
+    background-color: #e3e6e4;
     width: 92%;
     padding: 3%;
     margin-top: 4%;
@@ -126,11 +131,10 @@ color: green;
 #articles {
     float: left;
     width: 50%;
-    background-color: blue;
 }
 
 .post {
-background-color: lightgrey;
+background-color: #e3e6e4;
 width: 98%;
 padding: 3%;
 margin: auto;
@@ -146,11 +150,10 @@ border-radius: 6px;
 #sidebar_right {
     float: left;
     width: 25%;
-    background-color: purple;
 }
 
 .text_widget {
-background-color: lightgrey;
+background-color: #e3e6e4;
 width: 92%;
 padding: 3%;
 margin: auto;
@@ -164,12 +167,14 @@ border-radius: 6px;
 }
 
 footer {
-    background-color: yellow;
+    background-color: #e3e6e4;
     width: 80%;
     margin: auto;
     text-align: center;
     border-radius: 6px;
     margin-bottom: 10px;
+    color: #c4c4c4;
+    font-family: 'Inconsolata', monospace;
 }
 
 footer p {
