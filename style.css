@@ -76,9 +76,68 @@ header {
 main {
     background-color: lightgreen;
     width: 80%;
-    height: 100px;
     margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#sidebar_left {
+    float: left;
+    width: 25%;
+    background-color: purple;
+}
+
+#rss_feed {
+    background-color: lightgrey;
+    width: 92%;
+    padding: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#rss_feed p {
+font-weight: bold;
+font-size: 24px;
+}
+
+#rss_feed a {
+color: green;
+}
+
+#rss_feed ul {
+    list-style-type: none;
+}
+
+#rss_feed ul li {
+    padding-top: 2%;
+}
+
+.fa-rss-square {
+    color: orange;
+}
+
+
+
+#articles {
+    float: left;
+    width: 50%;
+    height: 80px;
+    background-color: blue;
+}
+
+#sidebar_right {
+    float: left;
+    width: 25%;
+    height: 80px;
+    background-color: purple;
+}
+
 
 footer {
     background-color: yellow;
