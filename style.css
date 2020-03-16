@@ -99,6 +99,7 @@ main::after {
     padding: 3%;
     margin-top: 4%;
     margin-bottom: 4%;
+    border-radius: 6px;
 }
 
 #rss_feed p {
@@ -135,6 +136,7 @@ padding: 3%;
 margin: auto;
 margin-top: 2%;
 margin-bottom: 4%;
+border-radius: 6px;
 }
 
 .post h3 {
@@ -154,6 +156,7 @@ padding: 3%;
 margin: auto;
 margin-top: 4%;
 margin-bottom: 4%;
+border-radius: 6px;
 }
 
 .text_widget h3 {
@@ -162,7 +165,21 @@ margin-bottom: 4%;
 
 footer {
     background-color: yellow;
-    height: 100px;
     width: 80%;
     margin: auto;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    padding: 1%;
+}
+
+footer i {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    font-size: 45px;
+    padding: 4%;
 }
